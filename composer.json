@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "symfony-cmf/routing": "^2.1.0",
+        "symfony-cmf/routing": "dev-symfony5",
         "symfony/framework-bundle": "^3.4 || ^4.3 || ^5.0",
         "twig/twig": "^2.4.4 || ^3.0"
     },
@@ -55,5 +55,11 @@
         "branch-alias": {
             "dev-master": "2.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kleinkind/routing"
+        }
+    ]
 }
